@@ -66,3 +66,12 @@
 }
 .section-heading h2 em{font-family:inherit;font-style:normal;font-weight:500;letter-spacing:inherit;color:#d2a12d}
 .brand-footer img{background:#f5f1e7;border-radius:50%;padding:3px}
+.footer-social{grid-column:1/-1;display:flex;align-items:center;gap:18px;padding-top:20px;border-top:1px solid #383838}
+.footer-social>span{font-size:8px;letter-spacing:1.5px;color:#d2a12d;font-weight:700}
+.social-icons{display:flex;align-items:center;gap:8px}
+.social-link{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;color:#f1eee7;border:1px solid #4c4b44;border-radius:50%;transition:color .2s,border-color .2s,background .2s}
+.social-link svg{display:block;width:15px;height:15px;fill:currentColor}
+.social-link:hover{color:#111;background:#d2a12d;border-color:#d2a12d}
+.social-pending{color:#aaa79f;border-style:dashed;cursor:default}
+.social-pending:hover{color:#aaa79f;background:transparent;border-color:#4c4b44}
+@media(max-width:760px){.footer-social{grid-column:1;justify-content:flex-start}.social-icons{gap:10px}}
