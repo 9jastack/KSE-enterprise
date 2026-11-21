@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.contact {
+    /* Background Overlay */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.258);
+}
+
+.contact>button {
+    border-radius: 50px;
+    color: black;
+    padding: 6px 20px;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+}
+.contact>p>a{
+    color:black;
+    text-decoration: none;
+}
+.contact>p>a:hover {
+    color: rgba(218, 165, 32, 0.852);
+    text-decoration: underline;
+}
+
+.call {
+    width: 100%;
+    max-width: calc(100% - 500px);
+    min-width: 300px;
+    padding: 20px;
+}
+
+.call>h1 {
+    margin-top: 10px;
+}
+
+.call>h2 {
+    margin-top: 30px;
+}
+
+.call>p{
+    margin-top: 15px;
+}
+
+.info {
+    width: 100%;
+    max-width: calc(100% - 500px);
+    min-width: 300px;
+    padding: 20px;
+}

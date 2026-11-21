@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.126);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo>img {
+    width: 50px;
+
+}
+
+.logo>div {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+}
+
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding-left: 30%;
+
+}
+
+.navs>a {
+    color: black;
+    text-decoration: none;
+}
+
+.navs>a:hover {
+    color: rgba(218, 165, 32, 0.756);
+    text-decoration: underline;
+
+}
+
+.body {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    background-image: url(image/work.jpeg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Background Overlay */
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+    gap: 20px;
+}
+
+.body>h1 {
+    font-size: 60px;
+    color: rgba(218, 165, 32, 0.845);
+}
+
+.body>p {
+    width: 100%;
+    max-width: 600px;
+    font-size: 14px;
+
+
+}
+
+.bus> :nth-child(1) {
+    background-color: rgba(218, 165, 32, 0.824);
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+ 
+.bus> :nth-child(2) {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.767);
+    color: black;
+    padding: 12px 25px;
+    font-size: 16px;
+    
+     
+}
+.bus>button>a{
+    color:black;
+    text-decoration: none;
+}
+.secbody {
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.107);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 40px; */
+    width: 100%;
+}
+
+.secbody>img {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 1 / 0.5;
+    object-fit: cover;
+}
+.about{
+    width: 100%;
+    max-width: calc(100% - 500px);
+    min-width: 300px;
+    padding: 20px;
+}
+
+.secbutton>:nth-child(1) {
+    border-radius: 50px;
+    color: black;
+    padding: 6px 20px;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+}
+
+.about>h1 {
+    margin-top: 10px;
+}
+
+.about>div>img {
+    width: 90px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.about>h3 {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.about>p {
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.thirdbutton :nth-child(1) {
+    border: none;
+    background-color: rgba(218, 165, 32, 0.87);
+    color: black;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 40px;
+
+}
+.thirdbutton>button>a{
+    text-decoration: none;
+}
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, auto);
+    padding: 30px ;
+    width: 100%;
+    
+
+
+}
+
+.container>div{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.087);
+    padding: 10px 30px;
+    
+
+
+
+
+}
+
+.container>div>img {
+    width: 90px;
+    height: 90px;
+    padding-top: 10px;
+
+
+}
+
+.container>div>p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.services {
+    background-color:rgba(0, 0, 0, 0.135);
+    padding: 0px 10px;
+
+}
+
+.brand {
+    padding: 50px 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.brand>img {
+    width: 80px;
+}
+
+.brand>div>h3 {
+    font-size: 16px;
+
+}
+
+.brand >div>p {
+    padding-left: 25px;
+    font-style: italic;
+    font-size: small;
+}
+
+.services>div>p {
+    font-size: 25px;
+    color:black;
+    
+
+}
+
+.image {
+    display: flex;
+    gap: 10px;
+    grid-template-rows: 10% 10% 10% 10%;
+    padding: 40px 10px;
+    flex-wrap: wrap;
+    object-fit: cover;
+
+
+
+
+}
+
+.image>div {
+    width: 80px;
+    height: 50px;
+    background-color: black;
+    padding: 5px 20px;
+    border-radius: 90%;
+
+}
+
+.image>div>img {
+    width: 30px;
+}
+
+.house {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+    
+}
+
+.column {
+    border-left: 2px solid rgba(218, 165, 32, 0.925);
+    padding-left: 40px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    font-size: 18px;
+    padding-top:5px ;
+
+}
+
+
+
+/*for mobile phones*/
+@media screen and (max-width:500px ) {
+    .navs {
+        display: none;
+    }
+}

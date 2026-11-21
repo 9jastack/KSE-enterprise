@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #faf9f5;
+    color: #26364d;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* HEADER */
+
+header {
+    padding: 25px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #faf9f5;
+    border-bottom: 1px solid #e4ded2;
+}
+
+.logo {
+    color: #26364d;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.logo span {
+    display: block;
+
+    color: #c5a33a;
+
+    font-size: 9px;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    color: #555;
+
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+
+    padding-bottom: 7px;
+}
+
+nav a:hover,
+nav a.active {
+    color: #c5a33a;
+    border-bottom: 1px solid #c5a33a;
+}
+
+.book-btn {
+    background: #c5a33a;
+    color: white;
+
+    padding: 14px 20px;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+
+/* CONTACT HERO */
+
+.contact-hero {
+    padding: 100px 8%;
+    text-align: center;
+}
+
+.small-title {
+    color: #b18b2d;
+
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+.contact-hero h1 {
+    font-size: 60px;
+    line-height: 1.1;
+    font-weight: normal;
+
+    margin-bottom: 25px;
+}
+
+.contact-hero h1 span {
+    color: #c5a33a;
+}
+
+.contact-hero > p:not(.small-title) {
+    max-width: 600px;
+
+    margin: auto;
+
+    color: #666;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* CONTACT SECTION */
+
+.contact-section {
+    padding: 30px 8% 100px;
+
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+
+    gap: 70px;
+
+    align-items: start;
+}
+
+
+/* CONTACT INFO */
+
+.contact-info h2 {
+    font-size: 43px;
+    line-height: 1.15;
+    font-weight: normal;
+
+    margin-bottom: 25px;
+}
+
+.intro {
+    color: #666;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+
+    max-width: 450px;
+
+    margin-bottom: 40px;
+}
+
+.info-item {
+    border-top: 1px solid #ddd6c9;
+
+    padding: 20px 0;
+}
+
+.info-item span {
+    color: #b18b2d;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.info-item p {
+    color: #555;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+
+    margin-top: 8px;
+}
+
+
+/* CONTACT FORM */
+
+.contact-form {
+    background: white;
+
+    border: 1px solid #e4ded2;
+
+    padding: 45px;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    font-weight: normal;
+
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 22px;
+}
+
+.input-group label {
+    display: block;
+
+    color: #b18b2d;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+
+    margin-bottom: 9px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+
+    border: 1px solid #ddd6c9;
+
+    background: #faf9f5;
+
+    padding: 14px;
+
+    color: #26364d;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+
+    outline: none;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #c5a33a;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    border: none;
+
+    background: #c5a33a;
+    color: white;
+
+    padding: 16px 25px;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #a9872d;
+}
+
+
+/* CTA */
+
+.contact-cta {
+    padding: 100px 8%;
+
+    text-align: center;
+
+    background: #26364d;
+    color: white;
+}
+
+.contact-cta .small-title {
+    color: #d4b65a;
+}
+
+.contact-cta h2 {
+    font-size: 50px;
+    line-height: 1.15;
+    font-weight: normal;
+
+    margin-bottom: 30px;
+}
+
+.gold-btn {
+    display: inline-block;
+
+    background: #c5a33a;
+    color: white;
+
+    padding: 15px 25px;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.gold-btn:hover {
+    background: #a9872d;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 55px 8%;
+
+    text-align: center;
+
+    background: #1c293d;
+    color: white;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.footer-logo span {
+    display: block;
+
+    color: #c5a33a;
+
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+
+    gap: 25px;
+
+    margin: 30px 0;
+}
+
+.footer-links a {
+    color: #ddd;
+
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+footer p {
+    color: #aaa;
+
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+}
+
+
+/* TABLET */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        order: 3;
+
+        width: 100%;
+
+        justify-content: center;
+
+        gap: 16px;
+
+        flex-wrap: wrap;
+    }
+
+    .contact-hero {
+        padding: 75px 6%;
+    }
+
+    .contact-hero h1 {
+        font-size: 45px;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+
+        padding: 20px 6% 80px;
+
+        gap: 50px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .intro {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-form {
+        padding: 35px;
+    }
+
+    .contact-cta h2 {
+        font-size: 40px;
+    }
+}
+
+
+/* SMALL PHONES */
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 9px;
+    }
+
+    .book-btn {
+        padding: 12px 16px;
+    }
+
+    .contact-hero h1 {
+        font-size: 38px;
+    }
+
+    .contact-info h2 {
+        font-size: 35px;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    .contact-form h2 {
+        font-size: 25px;
+    }
+
+    .contact-cta h2 {
+        font-size: 34px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
